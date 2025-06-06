@@ -1,0 +1,101 @@
+.clock {
+    width: max-content;
+    height: 50px;
+    padding: 10px 20px;
+    font-size: 3rem;
+    font-family: "Anton", sans-serif;
+    color: white;
+    background: #2f2f2f;
+    border-radius: 20%;
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.esgoted {
+    border-radius: 2rem;
+    color: red;
+}
+
+body {
+    background-color: rgb(0, 35, 123);
+}
+
+.content {
+    user-select: none;
+    height: 20vh; /* ou outro valor */
+    display: flex;
+    justify-content: center;   
+    align-items: center;     
+    color: #000000;  
+    font-size: 36px; 
+    font-family: "Anton", sans-serif;
+}
+
+.btns {
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.btns div {
+    display: flex;
+    gap: 30px;
+}
+.button {
+    width: 150px;
+    height: 50px;
+    background-color: #fffb00;
+    font-size: 14px;
+    font-family: "Anton", sans-serif;
+    font-weight: bold;
+    border-radius: 5rem;
+    border-color: #000000;
+    cursor: pointer;
+    margin-bottom: 30px;
+    color: #000000;
+}
+
+.popup {
+    display: none; 
+    position: fixed;
+    top: 0; left: 0;
+    width: 100vw; height: 100vh;
+    background: rgba(0, 0, 0, 0.4);
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+
+.popup-content {
+    background: #fff;
+    padding: 25px 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    max-width: 350px;
+    width: 90%;
+    text-align: center;
+    font-family: "Anton", sans-serif;
+}
+.popup-content p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.popup-content button {
+    padding: 10px 20px;
+    background-color: rgb(0, 94, 255);
+    border: none;
+    border-radius: 6px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.popup-content button:hover {
+    background-color: rgb(45, 122, 255);
+}
+

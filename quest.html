@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Quest 1</title>
+    <link rel="stylesheet" href="quest.css">
+</head>
+<body onload="reset()">
+  <div id="timer" class="clock"></div>
+  <div class="container">
+    <h2 id="question" class="content"></h2>
+    <div class="btns">
+        <div>
+            <button id="btn-1" class="button"></button>
+            <button id="btn-2" class="button"></button>
+        </div>
+        <div>
+            <button id="btn-3" class="button"></button>
+            <button id="btn-4" class="button"></button>
+        </div>
+    </div>
+    <div id="popup" class="popup">
+        <div class="popup-content">
+            <p id="finalizado">Quiz finalizado</p>
+            <p id="score"></p>
+            <button onclick="fecharPopup()">Fechar</button>
+        </div>
+    </div>
+  </div>
+</body>
+<script src="quest.js"></script>
+</html>

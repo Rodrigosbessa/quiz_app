@@ -1,0 +1,68 @@
+body {
+    font-family: "Anton", sans-serif;
+    background: rgb(0, 35, 123);
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+.btn-voltar {
+    position: absolute;
+    font-family: "Anton", sans-serif;
+    left: 20px;
+    top: 20px;
+    background-color: rgb(0, 94, 255);
+    color: white;
+    font-size: 24px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}.btn-voltar:hover {
+    background-color: rgb(45, 122, 255);
+}
+
+
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#scoresList {
+    list-style: none;
+    padding: 0;
+    max-height: 300px;
+    overflow-y: auto;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+#scoresList li {
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+    font-weight: bold;
+    font-size: 18px;
+    color: #333;
+}
+
+#clearBtn {
+    font-family: "Anton", sans-serif;
+    margin-top: 15px;
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(0, 94, 255);
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#clearBtn:hover {
+    background-color: rgb(45, 122, 255);
+}

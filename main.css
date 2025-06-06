@@ -1,0 +1,73 @@
+body {
+    background-color: rgb(0, 35, 123);
+}
+
+.container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    height: 50vh;
+    width: fit-content;
+}
+
+.sub-titulo {
+    align-self: center;
+    margin: 0;
+    font-size: 12px;
+    font-family: "Anton", sans-serif;
+    color: rgb(0, 94, 255);
+    user-select: none;
+}
+
+.titulo {
+    font-size: 60px;
+    margin: 0;
+    font-family: "Anton", sans-serif;
+    line-height: 1;
+    color: aliceblue;
+    user-select: none;
+}
+.roda {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+    box-shadow: 0px 0px 50px 6px aqua;
+}
+.btns {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.play {
+    width: 200px;
+    font-size: 24px;
+    background-color: rgb(244, 138, 0);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: aliceblue;
+    font-family: "Anton", sans-serif;
+}
+.scores {
+    font-family: "Anton", sans-serif;
+    width: 200px;
+    font-size: 24px;
+    background-color: rgb(143, 141, 255);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: aliceblue;
+} .scores:hover,.play:hover {
+    color: darkgrey;
+}
