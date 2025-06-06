@@ -1,0 +1,1 @@
+Um pequeno quiz de 10 perguntas, desenvolvido com HTML, CSS e JavaScript. As perguntas e as opções de resposta são embaralhadas dinamicamente a cada jogada, tornando cada tentativa única. O jogo inclui sistema de pontuação baseado no tempo de resposta, e guarda os scores anteriores para comparação. 
